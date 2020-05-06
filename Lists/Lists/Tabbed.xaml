@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Lists"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="Black" 
+            FlowDirection="MatchParent" Title="Delion"
+            x:Class="Lists.TabbedPage1" NavigationPage.HasNavigationBar="False" >
+    <NavigationPage Icon="note.png" BarBackgroundColor="#025855" BackgroundColor="#C3FFFF">
+        <x:Arguments>
+            <local:MainPageNotes/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Icon="contacts.png" BarBackgroundColor="#02505C" BackgroundColor="#D3FFFF">
+        <x:Arguments>
+            <local:MainPageContact/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Icon="web.png" BarBackgroundColor="#174566" BackgroundColor="#EAFDFA">
+        <x:Arguments>
+            <local:MainPageWeb/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Icon="event.png" BarBackgroundColor="#323967" BackgroundColor="#D5F3FE">
+        <x:Arguments>
+            <local:EventMainPage/>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lists.DetailsNote"
+             Title="{Binding Label}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="share.png" Text="Share" Order="Primary" Activated="OnShare" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="notebook1.png" Opacity="0.05" Aspect="Fill"/>
+            <Entry AbsoluteLayout.LayoutBounds="0,0,1,0.08" AbsoluteLayout.LayoutFlags="All" Placeholder="Label" Text="{Binding Label}" TextChanged="TextChanged" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+            <Editor AbsoluteLayout.LayoutBounds="0.5,1,0.98,0.92" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" FontSize="18" Text="{Binding TextNote}" x:Name="EditText" TextChanged="TextChanged" Placeholder="Let's note!" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,99 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
+    <PackageReference Include="XamarinComponent" Version="1.1.0.65" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="DetailPages\ContactDetails.xaml.cs">
+      <DependentUpon>ContactDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainPages\ContactMainPage.xaml.cs">
+      <DependentUpon>ContactMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainPages\WebMainPage.xaml.cs">
+      <DependentUpon>WebMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="DetailPages\NoteDetails.xaml.cs">
+      <DependentUpon>NoteDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="DetailPages\WebDetails.xaml.cs">
+      <DependentUpon>WebDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainPages\NotesMainPage.xaml.cs">
+      <DependentUpon>NotesMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Tabbed.xaml.cs">
+      <DependentUpon>Tabbed.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="DetailPages\ContactDetails.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DetailPages\EventDetails.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainPages\EventMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="InfoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DetailPages\NoteDetails.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainPages\ContactMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainPages\WebMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Tabbed.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DetailPages\WebDetails.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="DetailsContact.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="DetailsNote.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="DetailsWeb.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPageContact.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPageNotes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPageWeb.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Tabbed.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+</Project>

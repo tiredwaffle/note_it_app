@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Lists.DetailsWeb" Title="{Binding Label}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="save.png" Order="Primary" Text="Save" Activated="OnSave" />
+        <ToolbarItem Icon="share.png" Text="Share" Order="Primary" Activated="OnShare" />
+    </ContentPage.ToolbarItems>
+    <TableView Intent="Form">
+        <TableRoot>
+            <TableSection >
+                <EntryCell Label="Name of link" Text="{Binding Label}" Placeholder="Label"/>
+                <EntryCell Label="Link" Text="{Binding Link}" Placeholder="http://www.example.com" Keyboard="Email"/>
+            </TableSection>
+            <TableSection>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Save" Clicked="OnSave" HorizontalOptions="FillAndExpand" BackgroundColor="#174566" TextColor="White"/>
+                        <Button Text="Open" Clicked="OnOpen" HorizontalOptions="FillAndExpand" BackgroundColor="#174566" TextColor="White"/>
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

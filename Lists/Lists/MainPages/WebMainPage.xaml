@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Lists" Title="Delion Web-page Book"
+             x:Class="Lists.MainPageWeb" NavigationPage.HasNavigationBar="True">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="plus.png" Text="Add new note" Order="Primary" Activated="OnAdd"/>
+        <ToolbarItem Icon="sort.png" Text="Sort" Order="Primary" Activated="OnSort"/>
+        <ToolbarItem Text="Info" Order="Secondary" Activated="OnInfo" />
+    </ContentPage.ToolbarItems>
+    <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.1,0,1,0.9" AbsoluteLayout.LayoutFlags="All">
+        <SearchBar AbsoluteLayout.LayoutBounds="0,0,1,0.085" AbsoluteLayout.LayoutFlags="All" CancelButtonColor="Red" PlaceholderColor="Gray" Placeholder="Search..." TextChanged="SearchBar_TextChanged" />
+        <ListView ItemSelected="Selected" RowHeight="60" AbsoluteLayout.LayoutBounds="0.5,0.6,0.95,0.85" AbsoluteLayout.LayoutFlags="All"  x:Name="listView" SeparatorColor="Gray">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Open" IsDestructive="False" Clicked="OnOpen" CommandParameter="{Binding .}"/>
+                            <MenuItem Text="Delete" IsDestructive="true" Clicked="OnDelete"	CommandParameter="{Binding .}" />
+                        </ViewCell.ContextActions>
+                        <AbsoluteLayout>
+                            <Label AbsoluteLayout.LayoutBounds="0,0,0.7,0.7" AbsoluteLayout.LayoutFlags="All" Text="{Binding Label}" TextColor="#192F44" FontSize="22"  FontAttributes="Bold" VerticalOptions="Start"/>
+                            <Label AbsoluteLayout.LayoutBounds="1,0,0.3,0.3" AbsoluteLayout.LayoutFlags="All" Text="{Binding Date}" TextColor="Gray" FontSize="16" HorizontalOptions="End"/>
+                            <Label AbsoluteLayout.LayoutBounds="0,0.7,0.7,0.3" AbsoluteLayout.LayoutFlags="All" Text="{Binding Link}" TextColor="Gray" FontSize="16" VerticalOptions="Start"/>
+                        </AbsoluteLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </AbsoluteLayout>
+</ContentPage>

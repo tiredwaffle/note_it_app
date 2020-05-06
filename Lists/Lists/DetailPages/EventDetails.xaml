@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             x:Class="Lists.EventDetails" Title="{Binding Label}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="save.png" Text="Save" Order="Primary" Activated="OnSave" />
+        <ToolbarItem Icon="share.png" Text="Share" Order="Primary" Activated="OnShare" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <TableView Intent="Form">
+                <TableRoot>
+                    <TableSection>
+                        <EntryCell Label="Label" Text="{Binding Label}"  />
+                        <EntryCell Label="Details" Text="{Binding Details}" />
+                    </TableSection>
+                    <TableSection>
+                        <ViewCell>
+                            <AbsoluteLayout HorizontalOptions="FillAndExpand">
+                                <Label AbsoluteLayout.LayoutBounds="0.1,1,0.3,0.5" AbsoluteLayout.LayoutFlags="All" Text="Start"/>
+                                <DatePicker AbsoluteLayout.LayoutBounds="0.4,1,0.5,0.5" AbsoluteLayout.LayoutFlags="All"  Date="{Binding StartDate.Date}" TextColor="Black"/>
+                            </AbsoluteLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection>
+                        <ViewCell>
+                            <AbsoluteLayout HorizontalOptions="FillAndExpand">
+                                <Label Text="End" AbsoluteLayout.LayoutBounds="0.1,1,0.3,0.5" AbsoluteLayout.LayoutFlags="All"/>
+                                <DatePicker AbsoluteLayout.LayoutBounds="0.4,1,0.5,0.5" AbsoluteLayout.LayoutFlags="All" Date="{Binding EndDate}" MinimumDate="{Binding StartDate}" />
+                            </AbsoluteLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <Button Text="Save" Clicked="OnSave" HorizontalOptions="FillAndExpand" BackgroundColor="#323967" TextColor="White"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,4 @@
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Delion.csprojAssemblyReference.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Delion.csproj.CoreCompileInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Delion.AssemblyInfoInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Delion.AssemblyInfo.cs

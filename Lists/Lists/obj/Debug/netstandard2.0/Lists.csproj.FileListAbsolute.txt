@@ -1,0 +1,79 @@
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.deps.json
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.csprojAssemblyReference.cache
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.csproj.CoreCompileInputs.cache
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfoInputs.cache
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfo.cs
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\source\repos\Lists\Lists\Lists\obj\Debug\netstandard2.0\Details.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.deps.json
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\bin\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.csprojAssemblyReference.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Details.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.csproj.CoreCompileInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfoInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfo.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Lists.csprojAssemblyReference.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\ContactDetailPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Details.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\PopUp.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Lists.csproj.CoreCompileInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfoInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfo.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\bin\Debug\netstandard2.0\Lists.deps.json
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\bin\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\bin\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\bin\Debug\netstandard2.0\Lists.deps.json
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\bin\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\bin\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\Lists.csprojAssemblyReference.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\Details.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\Lists.csproj.CoreCompileInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfoInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfo.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists - 25.4\Lists\Lists\obj\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\WebPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists\Lists\Lists\obj\Debug\netstandard2.0\Contact.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\Contact.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - Copy\Lists\Lists\obj\Debug\netstandard2.0\WebPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Lists.csprojAssemblyReference.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Lists.csproj.CoreCompileInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfoInputs.cache
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Lists.AssemblyInfo.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\bin\Debug\netstandard2.0\Lists.deps.json
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\bin\Debug\netstandard2.0\Lists.dll
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\bin\Debug\netstandard2.0\Lists.pdb
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\InfoPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\DetailPages\ContactDetails.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\DetailPages\EventDetails.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\DetailPages\NoteDetails.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\DetailPages\WebDetails.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\MainPages\ContactMainPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\MainPages\EventMainPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\MainPages\NotesMainPage.xaml.g.cs
+C:\Users\yulyz\Desktop\курсач\код\Lists - extra\Lists\Lists\obj\Debug\netstandard2.0\MainPages\WebMainPage.xaml.g.cs

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Lists.DetailsContact" Title="{Binding FullName}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="save.png" Text="Save" Order="Primary" Activated="OnSave" />
+        <ToolbarItem Icon="share.png" Text="Share" Order="Primary" Activated="OnShare" />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <TableView Intent="Form">
+            <TableRoot>
+                <TableSection Title="Name">
+                    <EntryCell Label="First name" Text="{Binding FirstName}"  />
+                    <EntryCell Label="Last name" Text="{Binding LastName}" />
+                </TableSection>
+                <TableSection Title="Contact">
+                    <EntryCell Label="Phone" Text="{Binding Phone}" Placeholder="+380XXXXXXXXX" Keyboard="Numeric" />
+                    <EntryCell Placeholder="Email" Label="Email" Text="{Binding Email}" Keyboard="Email" />
+                </TableSection>
+                <TableSection>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Save" Clicked="OnSave" HorizontalOptions="FillAndExpand" BackgroundColor="#02505C" TextColor="White"/>
+                            <Button Text="Call" Clicked="OnCall" HorizontalOptions="FillAndExpand" BackgroundColor="#02505C" TextColor="White"/>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>

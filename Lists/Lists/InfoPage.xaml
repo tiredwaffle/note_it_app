@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lists.InfoPage" BackgroundImage="fon.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Course work" FontSize="Large" FontAttributes="Bold" TextColor="White"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="of student of group KA-76" FontSize="Medium" TextColor="White"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Zavalniuk Julia" FontSize="Medium" TextColor="White"
+                HorizontalOptions="CenterAndExpand" />
+            <Label TextColor="White">
+                This app was create to enable users store all types of notes. Now you can save your favourite web-page, contacts of somebody who matters, important events or just your thoughts!
+                Enjoy!
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
